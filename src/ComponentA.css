@@ -1,0 +1,53 @@
+.classA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+  margin-top: 80px;
+  background-color: rgb(171, 182, 241);
+  margin-bottom: 10px;
+}
+
+.classB {
+  display: flex;
+
+  padding: 20px;
+
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-bottom: 50px;
+}
+
+.classA_input {
+  padding: 5px;
+  width: 100%;
+  border: 3px transparent blue;
+  border-radius: 3px;
+  height: 20px;
+}
+
+.classB > button {
+  background-color: lightyellow;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.classC > button {
+  background-color: lightyellow;
+  margin: 2px;
+  padding: 5px;
+}
+
+.classC > h4 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  background-color: linen;
+  padding: 2px;
+}
